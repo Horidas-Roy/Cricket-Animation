@@ -3,35 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Cricket</title>
-    <style>
-        .field{
-            width: 100vw;
-            height: 80vh;
-            border: 1px solid goldenrod;
-        }
-        .field .bat{
-            padding-left: 30px;
-            transition: transform 0.1s ease-in 0.2s;
-        }
-        .ball{
-            height: 50px;
-            width: 50px;
-            border-radius: 50%;
-            background-color: red;
-            position: relative;
-            left: 543px;
-            transition: transform 1s ease-out 0.3s;
-        }
-        .field:hover .bat{
-            transform: rotate(-60deg);
-            transform-origin: top right;
-        }
-        
-        .field:hover .ball{
-            transform: translate(500px,-500px)
-        }
-    </style>
+    
+    
 </head>
 <body>
     <div class="field">
